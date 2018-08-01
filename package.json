@@ -1,0 +1,22 @@
+{
+  "name": "omnifood",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlosscherer86/omnifood.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlosscherer86/omnifood/issues"
+  },
+  "homepage": "https://github.com/carlosscherer86/omnifood#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
