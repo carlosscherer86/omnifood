@@ -42,7 +42,10 @@
     body{font-size: 16px;}
     section {padding: 30px, 0;}
     .row, .hero-text-box {padding: 0, 4%;}
-    .col { width: 100%; }
+    .col { 
+        width: 100%; 
+        margin: 0 0 4% 0;
+    }
     .main-nav {display: none;}
     .long-copy {
         width: 100%;
@@ -65,11 +68,13 @@
     }
 
     .steps-box:first-child { text-align: center;}
+    .app-screen {width: 40%;}
 
 
 }
 
 /*Small phones from 0 to 480px*/
 @media only screen and (max-width:480px) {
-
+    .section {padding: 25px 0;}
+    .contact-form {width: 100%;}
 }
